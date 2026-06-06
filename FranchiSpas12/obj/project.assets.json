@@ -886,11 +886,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SPT 4.0\\MOD_DEV\\Franchi-SPAS-12\\Franchi-Spas-12\\FranchiSpas12\\FranchiSpas12.csproj",
+      "projectUniqueName": "C:\\SPT 4.0\\MOD_DEV\\Franchi-SPAS-12\\Franchi-Spas-12\\Franchi-SPAS-12\\FranchiSpas12\\FranchiSpas12.csproj",
       "projectName": "Franchi-Spas-12",
-      "projectPath": "C:\\SPT 4.0\\MOD_DEV\\Franchi-SPAS-12\\Franchi-Spas-12\\FranchiSpas12\\FranchiSpas12.csproj",
+      "projectPath": "C:\\SPT 4.0\\MOD_DEV\\Franchi-SPAS-12\\Franchi-Spas-12\\Franchi-SPAS-12\\FranchiSpas12\\FranchiSpas12.csproj",
       "packagesPath": "C:\\Users\\mastr\\.nuget\\packages\\",
-      "outputPath": "C:\\SPT 4.0\\MOD_DEV\\Franchi-SPAS-12\\Franchi-Spas-12\\FranchiSpas12\\obj\\",
+      "outputPath": "C:\\SPT 4.0\\MOD_DEV\\Franchi-SPAS-12\\Franchi-Spas-12\\Franchi-SPAS-12\\FranchiSpas12\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mastr\\AppData\\Roaming\\NuGet\\NuGet.Config"

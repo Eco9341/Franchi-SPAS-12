@@ -8,7 +8,20 @@
         "path": "Mods/SPAS_12/weapon_spas12_container.bundle",
         "rcid": ""
       },
+      "Name": "weapon_franchi_spas12_12ga",
+      "Ergonomics": 34,
+      "RecoilAngle": 92,
+      "RecoilForceBack": 599,
+      "RecoilForceUp": 325,
+      "AimSensitivity": 0.62,
+      "HipAccuracyRestorationDelay": 0.35,
+      "HeatFactorByShot": 4.8,
+      "HeatFactorGun": 0.90,
+      "MountVerticalRecoilMultiplier": 0.75,
+      "MountHorizontalRecoilMultiplier": 0.50,
+      "Weight": 1.38,
       "Foldable": false,
+      "RepairCost": 105,
       "Slots": [
         {
           "_name": "mod_barrel",
@@ -124,7 +137,7 @@
       "en": {
         "name": "Franchi SPAS-12 12ga dual-mode shotgun",
         "shortName": "SPAS-12",
-        "description": "The Franchi SPAS-12 is a combat shotgun manufactured by Italian firearms company Franchi from 1979 to 2000. The SPAS-12 is a dual-mode shotgun, adjustable for semi-automatic or pump-action operation. The SPAS-12 was sold to military and police users worldwide, as well as on the civilian market"
+        "description": "The SPAS-12 (Special Purpose Automatic Shotgun, 12 gauge) was designed in the late 70's as a combat shotgun for use by global military and police forces before later being superseded by the SPAS-15 in 2000. The SPAS was designed with both pump action, intended for use with low-pressure rounds like less-lethals or tear gas, and semi auto, intended for use with normal slugs or buckshot rounds. Manufactured by Franchi"
       }
     },
     "addtoInventorySlots": [
@@ -133,8 +146,8 @@
     ],
     "addtoModSlots": false,
     "modSlot": [],
-    "fleaPriceRoubles": 140000,
-    "handbookPriceRoubles": 90000,
+    "fleaPriceRoubles": 37462,
+    "handbookPriceRoubles": 23342,
     "addtoTraders": false,
     "masteries": true,
     "addWeaponPreset": true,
@@ -187,19 +200,7 @@
               "_id": "6a235340e61c9b74804b7629",
               "_tpl": "6a22f9ddbe1815d0c5c0f90d",
               "parentId": "6a235342e61c9b74804b7904",
-              "slotId": "mod_sight_rear",
-              "upd": {
-                "Sight": {
-                  "ScopesCurrentCalibPointIndexes": [
-                    0
-                  ],
-                  "ScopesSelectedModes": [
-                    0
-                  ],
-                  "SelectedScope": 0,
-                  "ScopeZoomValue": 0
-                }
-              }
+              "slotId": "mod_sight_rear"
             },
             {
               "_id": "6a235340e61c9b74804b762a",
@@ -212,16 +213,17 @@
         }
     ],
     "traders": {
-      "PRAPOR": {
-        "6a22b76bbe1815d0c5c0f904": {
+      "MECHANIC": {
+        "6a236ec8b5414165be62127a": {
           "barterSettings": {
             "loyalLevel": 3,
             "unlimitedCount": true,
-            "stackObjectsCount": 99
+            "stackObjectsCount": 99,
+            "BuyRestrictionMax": 3
           },
           "barters": [
             {
-              "count": 54677,
+              "count": 34482,
               "_tpl": "MONEY_ROUBLES"
             }
           ]
@@ -252,14 +254,13 @@
       "Weight": 0.31,
       "Ergonomics": 14,
       "ConflictingItems": [],
-      "Slots": [
-      ]
+      "Slots": []
     },
     "locales": {
       "en": {
         "name": "SPAS-12 polymer handguard",
         "shortName": "SPAS-12",
-        "description": "The handguard, designed for the SPAS-12 shotgun."
+        "description": "A standard polymer forend designed for the Franchi SPAS-12 combat shotgun."
       }
     },
     "addtoInventorySlots": [],
@@ -293,7 +294,7 @@
       "SKIER": {
         "6a22f74bbe1815d0c5c0f906": {
           "barterSettings": {
-            "loyalLevel": 3,
+            "loyalLevel": 2,
             "unlimitedCount": true,
             "stackObjectsCount": 2
           },
@@ -343,9 +344,9 @@
     },
     "locales": {
       "en": {
-        "name": "SPAS-12 Polymer Grip",
+        "name": "SPAS-12 polymer grip",
         "shortName": "SPAS-12",
-        "description": "The polymer grip for the SPAS-12 shotgun."
+        "description": "A polymer grip for the Franchi SPAS-12 combat shotgun."
       }
     },
     "addtoInventorySlots": [],
@@ -391,7 +392,7 @@
       "SKIER": {
         "6a22f878be1815d0c5c0f908": {
           "barterSettings": {
-            "loyalLevel": 3,
+            "loyalLevel": 2,
             "unlimitedCount": true,
             "stackObjectsCount": 99
           },
@@ -416,8 +417,7 @@
         "rcid": ""
       },
       "Foldable": false,
-      "Slots": [
-      ],
+      "Slots": [],
       "CanSellOnRagfair": false,
       "CanRequireOnRagfair": false
     },
@@ -471,7 +471,7 @@
       "SKIER": {
         "6a2346cea7592c0b0da62080": {
           "barterSettings": {
-            "loyalLevel": 3,
+            "loyalLevel": 2,
             "unlimitedCount": true,
             "stackObjectsCount": 99
           },
@@ -500,9 +500,9 @@
     },
     "locales": {
       "en": {
-        "name": "SPAS-12 12ga 8-round magazine",
-        "shortName": "SPAS12 8rd",
-        "description": "An 8-round magazine for the SPAS-12 12-gauge shotgun."
+        "name": "SPAS-12 12ga 8-shell magazine",
+        "shortName": "SPAS-12x8",
+        "description": "An 8-shell magazine tube for the SPAS-12 12-gauge shotgun."
       }
     },
     "addtoInventorySlots": [],
@@ -842,8 +842,8 @@
     },
     "locales": {
       "en": {
-        "name": "SPAS-12 Picatinny rail w/ shells",
-        "shortName": "Shell",
+        "name": "SPAS-12 top rail with shell holder",
+        "shortName": "SPAS-12 Rail",
         "description": "A Picatinny rail for mounting scopes on the SPAS-12 shotgun with an integrated shell holder."
       }
     },
@@ -888,7 +888,7 @@
       "SKIER": {
         "6a22f99ebe1815d0c5c0f90c": {
           "barterSettings": {
-            "loyalLevel": 3,
+            "loyalLevel": 2,
             "unlimitedCount": true,
             "stackObjectsCount": 99
           },
@@ -915,9 +915,9 @@
     },
     "locales": {
       "en": {
-        "name": "SPAS-12 12ga 8-round magazine",
-        "shortName": "SPAS-12",
-        "description": "The rear sight for the SPAS-12"
+        "name": "SPAS-12 rear sight",
+        "shortName": "SPAS-12 RS",
+        "description": "A standard rear sight for the SPAS-12."
       }
     },
     "addtoInventorySlots": [],
@@ -994,14 +994,14 @@
         "path": "Mods/SPAS_12/spas12_barrel.bundle",
         "rcid": ""
       },
-      "Slots": [
-      ]
+      "Slots": [],
+      "ShotgunDispersion": 1.25
     },
     "locales": {
       "en": {
-        "name": "SPAS-12 12ga barrel 470mm",
-        "shortName": "SPAS-12 12ga",
-        "description": "The standard 12-gauge barrel for the SPAS-12 shotgun."
+        "name": "SPAS-12 470mm 12ga barrel",
+        "shortName": "SPAS-12 470mm",
+        "description": "A standard 470mm barrel for the SPAS-12 12 gauge combat shotgun."
       }
     },
     "addtoInventorySlots": [],

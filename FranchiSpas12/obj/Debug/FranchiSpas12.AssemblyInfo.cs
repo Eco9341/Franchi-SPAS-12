@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Franchi-Spas-12")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de990cf0eb6aa6aaf3954b6ad800fac97879b0e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d18de8772e780db4ea1000e73f6ba7418b7f5907")]
 [assembly: System.Reflection.AssemblyProductAttribute("Franchi-Spas-12")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Franchi-Spas-12")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
