@@ -8,12 +8,12 @@
         "path": "Mods/SPAS_12/weapon_spas12_container.bundle",
         "rcid": ""
       },
-      "Name": "weapon_franchi_spas12_12ga",
       "Ergonomics": 34,
       "RecoilAngle": 92,
       "RecoilForceBack": 599,
       "RecoilForceUp": 325,
       "AimSensitivity": 0.62,
+      "bFirerate": 300,
       "HipAccuracyRestorationDelay": 0.35,
       "HeatFactorByShot": 4.8,
       "HeatFactorGun": 0.90,
