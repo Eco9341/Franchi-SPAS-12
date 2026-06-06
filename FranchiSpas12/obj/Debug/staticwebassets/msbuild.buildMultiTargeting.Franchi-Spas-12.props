@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Franchi-Spas-12.props" />
+</Project>
