@@ -16,7 +16,7 @@ namespace FranchiSPAS12.Helpers
         // ReSharper disable IdentifierTypo
         //snipers
         //shotguns
-        private const string FRANCHI_SPAS_12 = "6a06febcf86e3e091872c104";
+        private const string FRANCHI_SPAS_12 = "6a22b76bbe1815d0c5c0f903";
         //smg
         //pistols
         

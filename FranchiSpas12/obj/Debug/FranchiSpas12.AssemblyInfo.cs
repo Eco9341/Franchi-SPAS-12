@@ -12,11 +12,11 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Franchi-Spas-12")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d18de8772e780db4ea1000e73f6ba7418b7f5907")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+baed93f8ba8197f59ac24676264c9850585c380e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Franchi-Spas-12")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Franchi-Spas-12")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]
 
 // Generato dalla classe WriteCodeFragment di MSBuild.
 
