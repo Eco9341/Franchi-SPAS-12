@@ -15,11 +15,11 @@ public record ModMetadata : IModMetadata
     public string Author { get; init; } = "Eco";
     public List<string>? Contributors { get; init; } = null;
     public SemanticVersioning.Version Version { get; init; } = new(typeof(ModMetadata).Assembly.GetName().Version?.ToString(3));
-    public Range SptVersion { get; init; } = new("~4.0.13");
+    public Range SptVersion { get; init; } = new("~4.1.2");
     public List<string>? Incompatibilities { get; init; }
     public Dictionary<string, Range>? ModDependencies { get; init; } = new()
     {
-        { "com.wtt.commonlib", new Range("~2.0.20") }
+        { "com.wtt.commonlib", new Range("~3.0.3") }
     };
     public string? Url { get; init; }
     public bool HasPrepatcher { get; init; } = false;
@@ -36,7 +36,6 @@ public class FranchiSpas12(
     {
         Assembly assembly = Assembly.GetExecutingAssembly();
         await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly);
-        await wttCommon.CustomBotLoadoutService.CreateCustomBotLoadouts(assembly);
         await wttCommon.CustomAssortSchemeService.CreateCustomAssortSchemes(assembly);
         ecoQuestHelper.ModifyQuests();
     }
